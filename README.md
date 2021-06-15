@@ -6,11 +6,11 @@ Repositorio de patrones de diseño, para aprender y recordar.
 ## Patrones creacionales
 Estos patrones proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
 
--Factory Method
--Abstract Factory
--Builder
--Prototype
--Singleton
+-Factory Method<br />
+-Abstract Factory<br />
+-Builder<br />
+-Prototype<br />
+-Singleton<br />
 
 
 ## Patrones estructurales
