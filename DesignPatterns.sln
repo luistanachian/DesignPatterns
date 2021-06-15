@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{27A945CD-E9B8-48A4-9FE2-825F92439999}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "PatronesCreacionales\FactoryMethod\FactoryMethod.csproj", "{27A945CD-E9B8-48A4-9FE2-825F92439999}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patrones creacionales", "Patrones creacionales", "{A4A9AC83-AF58-4542-A496-4CD136EC7C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{B903F71F-12CB-4CF8-9A43-CD03DCE6ABA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "PatronesCreacionales\Singleton\Singleton.csproj", "{B903F71F-12CB-4CF8-9A43-CD03DCE6ABA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{5C804DB8-7A45-4725-B9BB-F4BE25E90B41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "PatronesCreacionales\AbstractFactory\AbstractFactory.csproj", "{5C804DB8-7A45-4725-B9BB-F4BE25E90B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{773A2354-7C1E-4253-BA4C-2E72980B939F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "PatronesCreacionales\Builder\Builder.csproj", "{773A2354-7C1E-4253-BA4C-2E72980B939F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{8432CFA4-26F3-4848-8E4E-963EB66A831B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "PatronesCreacionales\Prototype\Prototype.csproj", "{8432CFA4-26F3-4848-8E4E-963EB66A831B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patrones estructurales", "Patrones estructurales", "{CCE5F70A-3FE0-486D-BD7D-B6D7C8992E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patrones de comportamiento", "Patrones de comportamiento", "{31868D15-F8CB-4EC5-A36F-EBDF5FFB3B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
