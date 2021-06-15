@@ -3,7 +3,7 @@ Repositorio de patrones de diseño, para aprender y recordar.
 
 
 
-# Patrones creacionales
+## Patrones creacionales
 Estos patrones proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
 
 -Factory Method
@@ -13,7 +13,7 @@ Estos patrones proporcionan mecanismos de creación de objetos que incrementan l
 -Singleton
 
 
-# Patrones estructurales
+## Patrones estructurales
 Estos patrones explican cómo ensamblar objetos y clases en estructuras más grandes, mientras se mantiene la flexibilidad y eficiencia de la estructura.
 
 Adapter
@@ -24,7 +24,7 @@ Facade
 Flyweight
 Proxy
 
-# Patrones de comportamiento
+## Patrones de comportamiento
 Estos patrones tratan con algoritmos y la asignación de responsabilidades entre objetos.
 
 Chain of Responsibility
