@@ -15,6 +15,7 @@ namespace Singleton
             cal2.AddEvento("Clase de ingles", DateTime.Today.AddDays(5));
             cal2.PrintEventos();
 
+            Console.WriteLine("------------------------");
             Console.WriteLine("Push any key for exit...");
             Console.ReadKey();
         }
