@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Prototype
 {
-    public class Gato : ICloneable
+    //ICloneable  se usa para generar la clase clone y permitir la clonacion
+    public class Gato : ICloneable 
     {
         public int Edad { get; set; }
         public Rasgos Rasgos { get; set; }
