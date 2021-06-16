@@ -6,7 +6,19 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Construir(new SandwichDeAtunBuilder());
+            Construir(new SandwichDeQuesoBuilder());
+            Construir(new SandwichDeQuesoTostadoBuilder());
+
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Push any key for exit...");
+            Console.ReadKey();
+        }
+
+        public static void Construir(SandwichBuilder builder)
+        {
+            Sandwich sandwich = builder.BuildSandwich();
+            sandwich.Descripcion();
         }
     }
 }
